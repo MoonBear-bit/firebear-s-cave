@@ -1,0 +1,33 @@
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: rgb(0,0,0);
+    z-index: 0;
+}
+.startscreen{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: rgb(0,0,0);
+    background-image: url("../Image/opening.png");
+    background-size: 100vw 100vh;
+    color: white;
+    font-size: 10vh;
+    cursor: cell;
+    z-index: 1;
+}
+.StartButton{
+    position: absolute;
+    top: 63vh;
+    left: 46vw;
+    height: 8vh;
+    width: 10vw;
+    border: 5px solid lawngreen;
+    background-color: black;
+    color: lawngreen;
+    font-size: 6vh;
+    z-index: 10;
+}
